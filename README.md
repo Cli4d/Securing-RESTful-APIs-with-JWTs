@@ -2,7 +2,6 @@
 
 This is a repository for the workshop explaining about JSON Web Tokens and how the improve the security of RESTful APIs
 
-<!-- Help me create a readme for this project -->
 ## How to run the project
 
 1. Clone the repository
@@ -13,6 +12,10 @@ This is a repository for the workshop explaining about JSON Web Tokens and how t
     - DB_CONNECTION
     - TOKEN_SECRET
 5. Run `npm start` in the Code folder to start the server
-6. Test the API using Postman or any other API testing tool
+6. Test the API using Postman or any other API testing tool.
+7. Remember the credentials to test adding books in the `/books` route are:
+    - email: `cliffordouma@gmail.com`
+    - password: `admin`
+These are in the `userDataDb.js` file in the `Code` folder and can be changed if you want to.
 
 <!-- Attribution: https://github.com/weibenfalk/jwtToken-react-express -->
